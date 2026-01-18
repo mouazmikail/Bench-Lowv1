@@ -1,0 +1,24 @@
+# Environnements
+venv/
+.env
+
+# Logs & runs
+logs/
+runs/
+wandb/
+
+# Checkpoints lourds
+checkpoint-*/
+checkpoints/
+*.ckpt
+
+# Cache frameworks
+.cache/
+__pycache__/
+
+# Données
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
