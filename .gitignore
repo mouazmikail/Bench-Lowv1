@@ -2,7 +2,7 @@
 venv/
 .env
 
-# Logs & runs
+# Logs & tracking
 logs/
 runs/
 wandb/
@@ -11,8 +11,9 @@ wandb/
 checkpoint-*/
 checkpoints/
 *.ckpt
+optimizer.pt
 
-# Cache frameworks
+# Cache
 .cache/
 __pycache__/
 
