@@ -1,0 +1,25 @@
+steps of the project's execution :
+
+open the training_llava script
+
+load the model from the drive if the final fine tuned version is available there ( if not run the the whole script )
+
+after loading the model , launch the api connexion block ( last block )
+
+copy the link ( public api tunnel url ex :https://c1699fde5cac.ngrok-free.app)
+
+
+in the platform folder 
+
+past the link on : colab url api in test_api.py ,  generate test and evaluate test in app.py
+
+run test_api.py first
+
+run app.py ( database base is SQLite , should be created directly )
+
+the platform should be working on the local host address
+
+use demo@example.com/demo123 for the user
+
+use admin@eduplatform.com/admin123 for the admin
+
